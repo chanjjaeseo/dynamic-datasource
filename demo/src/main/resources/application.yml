@@ -7,14 +7,14 @@ spring:
       driver-class-name: com.mysql.jdbc.Driver
 #      initialize: true #指定初始化数据源，是否用data.sql来初始化，默认: true
 #      name: cmmi
-      url: jdbc:mysql://47.107.127.220:3306/test1?useUnicode=true&characterEncoding=utf-8&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
-      username: root
-      password: mayuzhu521.QCZ
+      url: jdbc:mysql://xxx:3306/test1?useUnicode=true&characterEncoding=utf-8&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
+      username: xxx
+      password: xxx
     test2:
       driver-class-name: com.mysql.jdbc.Driver
 #      initialize: true
 #      name: zentaopro
-      url: jdbc:mysql://47.107.127.220:3306/test2?useUnicode=true&characterEncoding=utf-8&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
-      username: root
-      password: mayuzhu521.QCZ
+      url: jdbc:mysql://xxx:3306/test2?useUnicode=true&characterEncoding=utf-8&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
+      username: xxx
+      password: xxx
 
