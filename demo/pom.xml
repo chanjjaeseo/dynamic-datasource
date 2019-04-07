@@ -7,7 +7,7 @@
 
     <parent>
         <artifactId>dynamic-datasource</artifactId>
-        <groupId>com.qcz</groupId>
+        <groupId>com.qcz.ds</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -21,17 +21,12 @@
             <artifactId>commons-lang3</artifactId>
         </dependency>
         <dependency>
-            <groupId>javax.validation</groupId>
-            <artifactId>validation-api</artifactId>
-            <version>2.0.1.Final</version>
-        </dependency>
-        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
         <dependency>
-            <groupId>com.qcz</groupId>
+            <groupId>com.qcz.ds</groupId>
             <artifactId>common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

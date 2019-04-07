@@ -2,7 +2,6 @@ package com.qcz.demo;
 
 import com.qcz.demo.dao.TestDAO;
 import com.qcz.demo.service.TestService;
-import com.qcz.ds.DataSource;
 import com.qcz.ds.DataSourceHolder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,6 +28,11 @@ public class SQLTest {
     @Test
     public void test2(){
         System.out.println(testService.getName());
+    }
+
+    @Test
+    public void test3(){
+        System.out.println(testDAO.selectName(1));
     }
 
 }

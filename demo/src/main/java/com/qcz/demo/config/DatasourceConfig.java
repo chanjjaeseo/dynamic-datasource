@@ -17,7 +17,7 @@ public class DatasourceConfig {
         datasource.add("spring.datasource.test1");
         datasource.add("spring.datasource.test2");
         multipleDataSource.setDataSources(datasource);
-        multipleDataSource.setDefaultDataSource("test1");
+        multipleDataSource.setDefaultDataSource("spring.datasource.test1");
         return multipleDataSource;
     }
 
