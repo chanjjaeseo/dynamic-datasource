@@ -1,13 +1,28 @@
 ## dynamic-datasource
 
 ### 1.引入maven依赖
-
+pom.xml
 ```
 <dependency>
     <groupId>com.qcz.ds</groupId>
     <artifactId>common</artifactId>
     <version>1.0-SNAPSHOT</version>
 </dependency>
+```
+
+setting.xml
+```
+<mirror>
+    <id>nexus-aliyun</id>
+    <mirrorOf>central</mirrorOf>
+    <name>Nexus aliyun</name>
+    <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+</mirror>
+<mirror>
+    <id>nexus-qcz</id>
+    <mirrorOf>*</mirrorOf>
+    <url>http://47.107.127.220:8081/repository/maven-public/</url>
+</mirror>
 ```
 
 ### 2.配置application.yml
