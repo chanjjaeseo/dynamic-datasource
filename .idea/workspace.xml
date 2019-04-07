@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17969a9e-081a-4426-bc80-93e5355b3462" name="Default" comment="">
+    <list default="true" id="17969a9e-081a-4426-bc80-93e5355b3462" name="Default" comment="添加使用信息">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" afterPath="$PROJECT_DIR$/common/common.iml" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" afterPath="$PROJECT_DIR$/common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/demo/demo.iml" afterPath="$PROJECT_DIR$/demo/demo.iml" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" afterPath="$PROJECT_DIR$/demo/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/qcz/demo/config/DatasourceConfig.java" afterPath="$PROJECT_DIR$/demo/src/main/java/com/qcz/demo/config/DatasourceConfig.java" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/qcz/ds/DatasourceInterceptor.class" afterPath="$PROJECT_DIR$/common/target/classes/com/qcz/ds/DatasourceInterceptor.class" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/qcz/demo/SQLTest.java" afterPath="$PROJECT_DIR$/demo/src/test/java/com/qcz/demo/SQLTest.java" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/application.yml" afterPath="$PROJECT_DIR$/demo/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/qcz/demo/config/DatasourceConfig.class" afterPath="$PROJECT_DIR$/demo/target/classes/com/qcz/demo/config/DatasourceConfig.class" />
+      <change beforePath="$PROJECT_DIR$/demo/target/test-classes/com/qcz/demo/SQLTest.class" afterPath="$PROJECT_DIR$/demo/target/test-classes/com/qcz/demo/SQLTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +26,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1804">
-                <caret line="82" column="35" lean-forward="false" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+              <first_editor relative-caret-position="1936">
+                <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -650,8 +646,16 @@
       <option name="presentableId" value="Default" />
       <updated>1554528595743</updated>
       <workItem from="1554528600981" duration="7730000" />
-      <workItem from="1554536800438" duration="20657000" />
+      <workItem from="1554536800438" duration="20782000" />
     </task>
+    <task id="LOCAL-00001" summary="添加使用信息">
+      <created>1554615732613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554615732613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -687,7 +691,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28387000" />
+    <option name="totallyTimeSpent" value="28512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -774,6 +778,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加使用信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加使用信息" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -839,6 +847,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,8 +1326,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1804">
-            <caret line="82" column="35" lean-forward="false" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+          <first_editor relative-caret-position="1936">
+            <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
