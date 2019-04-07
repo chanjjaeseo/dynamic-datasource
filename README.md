@@ -1,6 +1,6 @@
-### dynamic-datasource
+## dynamic-datasource
 
-> 1.引入maven依赖
+### 1.引入maven依赖
 
 ```
 <dependency>
@@ -10,7 +10,7 @@
 </dependency>
 ```
 
-> 2.配置application.yml
+### 2.配置application.yml
 
 ```
 server:
@@ -30,7 +30,7 @@ spring:
       password: xxx
 ```
 
-> 3.配置多数据源
+### 3.配置多数据源
 
 ```
 @Bean("multipleDataSource")
@@ -44,16 +44,16 @@ public MultipleDataSource multipleDataSource() {
     return multipleDataSource;
 }
 ```
-我们配置两个可访问的数据源
+> 我们配置两个可访问的数据源
 
 - spring.datasource.test1
 - spring.datasource.test2
 
 spring.datasource.test1作为默认的数据源
 
-> 4.使用
+### 4.使用
 
-我们建立了两个数据库test1和test2，建立相同的表结构，存储不同的数据
+> 我们建立了两个数据库test1和test2，建立相同的表结构，存储不同的数据
 
 - test1
 
@@ -67,7 +67,7 @@ spring.datasource.test1作为默认的数据源
 | ------ | ------ |
 | 1 | db2| 
 
-现在我们用mybatis 结合多数据源访问这两个数据库。
+> 现在我们用mybatis 结合多数据源访问这两个数据库。
 
 ```
 //方式一: Callable访问
