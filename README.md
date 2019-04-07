@@ -21,6 +21,7 @@ setting.xml
 <mirror>
     <id>nexus-qcz</id>
     <mirrorOf>*</mirrorOf>
+    <name>Nexus qcz</name>
     <url>http://47.107.127.220:8081/repository/maven-public/</url>
 </mirror>
 ```
